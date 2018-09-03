@@ -18,12 +18,6 @@
             android:text="拍照"
             android:textColor="#53ae71"
             android:textSize="18sp" />
-
-        <VideoView
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#eeeeee" />
-
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
