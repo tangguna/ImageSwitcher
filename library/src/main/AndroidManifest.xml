@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tangguna.imageswitcher.library">
+
+    <application
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.ClipImageActivity"/>
+        <activity android:name=".activity.ImageSelectorActivity"/>
+        <activity android:name=".activity.PreviewActivity"/>
+
+    </application>
+</manifest>

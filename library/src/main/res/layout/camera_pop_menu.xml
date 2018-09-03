@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#90000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/btn_camera_pop_camera"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#ffffff"
+            android:text="拍照"
+            android:textColor="#53ae71"
+            android:textSize="18sp" />
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:id="@+id/btn_camera_pop_album"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#FFFFFF"
+            android:text="相册"
+            android:textColor="#53ae71"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/btn_camera_pop_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>
